@@ -365,7 +365,7 @@ const TripList = ({ trips, editTrip, deleteTrip, setTrips }) => {
                       <EditIcon className="material-symbols-rounded" onClick={() => editTrip(trip.id)}>
                         edit_square
                       </EditIcon>
-                      <DeleteIcon className="material-symbols-rounded" onClick={() => editTrip(trip.id)}>
+                      <DeleteIcon className="material-symbols-rounded" onClick={() => deleteTrip(trip.id)}>
                         delete
                       </DeleteIcon>
                     </ActionButton>
